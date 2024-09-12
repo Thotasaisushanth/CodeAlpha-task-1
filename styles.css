@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.gallery-container {
+    text-align: center;
+    width: 60%;
+}
+
+.gallery {
+    position: relative;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-navigation {
+    margin-top: 10px;
+}
+
+.gallery-navigation button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.gallery-navigation button:hover {
+    background-color: #555;
+}

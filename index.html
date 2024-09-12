@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="gallery">
+        <!-- Anime Section -->
+        <div class="gallery-section" id="anime">
+            <h2>Anime</h2>
+            <div class="image-grid">
+                <div class="image-item">
+                    <img src="anime1.jpg" alt="Anime Image 1">
+                </div>
+                <div class="image-item">
+                    <img src="anime2.jpg" alt="Anime Image 2">
+                </div>
+                <div class="image-item">
+                    <img src="anime3.jpg" alt="Anime Image 3">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Clothes Section -->
+        <div class="gallery-section" id="clothes">
+            <h2>Clothes</h2>
+            <div class="image-grid">
+                <div class="image-item">
+                    <img src="clothes1.jpg" alt="Clothes Image 1">
+                </div>
+                <div class="image-item">
+                    <img src="clothes2.jpg" alt="Clothes Image 2">
+                </div>
+                <div class="image-item">
+                    <img src="clothes3.jpg" alt="Clothes Image 3">
+                </div>
+            </div>
+        </div>
+
+        <!-- Bikes Section -->
+        <div class="gallery-section" id="bikes">
+            <h2>Bikes</h2>
+            <div class="image-grid">
+                <div class="image-item">
+                    <img src="bikes1.jpg" alt="Bikes Image 1">
+                </div>
+                <div class="image-item">
+                    <img src="bikes2.jpg" alt="Bikes Image 2">
+                </div>
+                <div class="image-item">
+                    <img src="bikes3.jpg" alt="Bikes Image 3">
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="gallery-navigation">
+            <button onclick="previousImage()">&#10094; Previous</button>
+            <button onclick="nextImage()">Next &#10095;</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
